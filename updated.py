@@ -49,7 +49,7 @@ init(convert=True)
 
 with open('settings.json') as config_file:
     config = json.load(config_file)
-    CAPMONSTER = config['84aa6b569bb68e2199caeeebafd04903']
+    CAPMONSTER = config['Capmonster_apikey']
 
 done = 0
 retries = 0
